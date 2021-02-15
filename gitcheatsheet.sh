@@ -17,7 +17,7 @@ git remote set-url origin https://<hostname>/<Username>/<Repository>.git
 # Set origin with password
 git remote set-url origin https://<Username>:<Password>@github.com/<Repository>.git
 
-# Git remove remove branch
+# Git remove remote branch
 git push -d origin <BranchName>
 
 # Git push to remote origin

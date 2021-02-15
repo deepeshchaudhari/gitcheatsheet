@@ -28,3 +28,6 @@ git log
 
 # delete the file from project and stage the removal for commit
 git rm [file]
+
+# remove git origin
+git remote rm origin

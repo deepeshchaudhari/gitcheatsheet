@@ -3,14 +3,19 @@ ssh -T git@github.com
 # Hi deepeshchaudhari! You've successfully authenticated, but GitHub does not provide shell access.
 
 
+# initialize git repo Local
+git init
+
+# add remote repo 
+git remote add origin https://github.com/user/repo.git
+
+# check remote repos 
+git remote -v
+
 # Set origin via https
 git remote set-url origin https://<hostname>/<Username>/<Repository>.git
 # Set origin with password
 git remote set-url origin https://<Username>:<Password>@github.com/<Repository>.git
-
-# initialize git repo Local
-git init
-
 
 # Git remove remove branch
 git push -d origin <BranchName>

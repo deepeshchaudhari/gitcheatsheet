@@ -3,9 +3,8 @@ ssh -T git@github.com
 # Hi deepeshchaudhari! You've successfully authenticated, but GitHub does not provide shell access.
 
 
-# Set origin
+# Set origin via https
 git remote set-url origin https://<hostname>/<Username>/<Repository>.git
-
 # Set origin with password
 git remote set-url origin https://<Username>:<Password>@github.com/<Repository>.git
 
